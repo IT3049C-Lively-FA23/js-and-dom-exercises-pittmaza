@@ -8,7 +8,7 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
 
 - [x] update the assignment checks above to the correct link. - Done Automatically
 
-### I do want to make note that NPM tests were causing issues on my machines. I recently installed the newest version of NPM and Node with W11 and this caused a bit of an issue with the tests. For the next assignment, I will ensure that this gets addressed.
+### I do want to make note that NPM tests were causing issues on my machine. I recently installed the newest version of NPM and Node with W11 and this caused a bit of an issue with the tests. For the next assignment, I will ensure that this gets addressed.
 
 ## Checklist:
 
