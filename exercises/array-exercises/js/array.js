@@ -8,7 +8,13 @@ class ArrayFunctions {
    * indexOf([1,2,3,5,6], 3); // 2
    */
   indexOf(arr, item) {
-    return ;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] == item) {
+        item = i;
+        return item;
+      }
+    }
+    return;
   }
 
   /**
@@ -19,8 +25,8 @@ class ArrayFunctions {
    * sum([1,2,3]); // 6
    */
   sum(arr) {
-    // Hint: use the reduce method
-    return ;
+    const sum = arr.reduce((acc, cv) => acc + cv);
+    return sum;
   }
 
   /**
@@ -33,7 +39,8 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
-    return ;
+    for (let i = 0; i < arr.length; i++) {}
+    return;
   }
 
   /**
@@ -58,11 +65,11 @@ class ArrayFunctions {
    * concat([1,2,3], [4,5,6]); // [1,2,3,4,5,6]
    */
   concat(arr1, arr2) {
-    return ;
+    return;
   }
 
   /**
-   * Square: takes an array of numbers and squares each number  
+   * Square: takes an array of numbers and squares each number
    * @param {number[]} arr - the array to be squared
    * @returns {number[]} - the squared array
    * @example
@@ -70,6 +77,6 @@ class ArrayFunctions {
    */
   square(arr) {
     // hint: use .map
-    return ;
+    return;
   }
 }
